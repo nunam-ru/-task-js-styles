@@ -20,7 +20,7 @@ export function addClass(elem, elemClass) {
 }
 
 export function removeClass(elem, elemClass) {
-    if (hasClass(elem, elemClass)) elem.classList.remove(elemClass);
+    elem.classList.remove(elemClass);
 }
 
 export function toggleClass(elem, elemClass) {
